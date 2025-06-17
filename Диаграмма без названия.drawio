@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Страница — 1" id="8ULPZ1w-Y1eWGlPT2oND">
-    <mxGraphModel>
+    <mxGraphModel dx="996" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t0NzURxNjtbejnuHhxnO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="t0NzURxNjtbejnuHhxnO-1" target="t0NzURxNjtbejnuHhxnO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-1" value="DeliveryIntentEntity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="t0NzURxNjtbejnuHhxnO-2" target="t0NzURxNjtbejnuHhxnO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-2" value="DeliveryIntentTransportCompanyEntity&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. id: uuid&lt;/div&gt;&lt;div&gt;2. deliveryIntentId: uuid&lt;/div&gt;&lt;div&gt;3. transportCompanyId: uuid&lt;br&gt;4. externalId: string&lt;/div&gt;&lt;div&gt;5. createdAt: Date&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="350" y="235" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-4" value="1-1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="t0NzURxNjtbejnuHhxnO-6" target="t0NzURxNjtbejnuHhxnO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-6" value="TransportCompanyEntity&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. id: uuid&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. company_id: string&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. transport_company_id: string&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. authData: jsonb&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="660" y="235" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t0NzURxNjtbejnuHhxnO-9" target="t0NzURxNjtbejnuHhxnO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-9" value="&lt;div&gt;&lt;div&gt;CompanyEntity&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="120" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-11" value="1-2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-14" value="1-1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-15" value="TransportCompanyEntity&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. id: uuid&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. name: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="910" y="250" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t0NzURxNjtbejnuHhxnO-17" value="2-2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
